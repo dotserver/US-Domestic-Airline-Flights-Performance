@@ -10,7 +10,7 @@ from dash import no_update
 # Create a dash application
 app = Dash(__name__)
 server = app.server
-
+githublink = 'https://github.com/dotserver/US-Domestic-Airline-Flights-Performance'
 # REVIEW1: Clear the layout and do not display exception till callback gets executed
 app.config.suppress_callback_exceptions = True
 
@@ -133,7 +133,9 @@ app.layout = html.Div(children=[
                                 html.Div([
                                         html.Div([ ], id='plot4'),
                                         html.Div([ ], id='plot5')
-                                ], style={'display': 'flex'})
+                                ], style={'display': 'flex'}),
+                                
+                                html.Marquee(html.A('Code on Github', href=githublink))
                              ])
 
 # Callback function definition
