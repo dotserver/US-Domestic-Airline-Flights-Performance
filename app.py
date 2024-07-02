@@ -84,7 +84,7 @@ app.layout = html.Div(children=[
             ], style={'display': 'flex'}),
         ])
     ], type="default"),
-    html.Marquee(html.A('Code on Github', href=githublink))
+    html.Marquee(html.A('Code on Github', href="https://github.com/dotserver/US-Domestic-Airline-Flights-Performance"))
 ])
 
 
