@@ -22,7 +22,6 @@ It's recommended to use a virtual environment like venv or conda for Python depe
 
 After installing the dependencies, you can run the application with the following command:
 
-    ```bash
     python app.py
 
 
