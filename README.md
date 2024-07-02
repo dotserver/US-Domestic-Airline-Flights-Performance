@@ -16,7 +16,6 @@ To run this dashboard locally, follow these steps:
 
 It's recommended to use a virtual environment like venv or conda for Python dependency management. Navigate into your project directory and run:
 
-    ```bash
     pip install -r requirements.txt
 
 ## Running the Application
